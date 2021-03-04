@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./calculator.css">
+  <script src="./calculator.js" defer></script>
+    <title>Calculator</title>
+</head>
+<body>
+    <div class="calc">
+    <table >
+        <tr>
+            <td colspan="3">
+                <input type="text" id="res" class="input" value=""/>
+            </td>
+        </tr>
+        <tr>
+            <td style='text-align:center'>
+                <input type="button" id="seven" class="gerybtn" value="7"onclick="inputAnswer('7')"/>
+            </td>
+            <td class="btn">
+                <input type="button" id="eight" class="gerybtn" value="8"onclick="inputAnswer('8')"/>
+            </td>
+            <td class="btn">
+                <input type="button" id="nine" class="gerybtn" value="9"onclick="inputAnswer('9')"/>
+            </td>
+            <td class="btn">
+                <input type="button" id="plus" class="orabtn" value="0"/>
+            </td>
+        </tr>
+        <tr>
+            <td class="btn">
+                <input type="button" id="four" class="gerybtn" value="4" onclick="inputAnswer('4')"/>
+            </td>
+            <td class="btn">
+                <input type="button" id="five" class="gerybtn" value="5" onclick="inputAnswer('5')"/>
+            </td>
+            <td class="btn">
+                <input type="button" id="six" class="gerybtn" value="6" onclick="inputAnswer('6')"/>
+            </td>
+            <td class="btn">
+                <input type="button" id="minus" class="orabtn" value="-" onclick="inputAnswer('-')"/>
+            </td>
+        </tr>
+        <tr>
+            <td class="btn">
+                <input type="button" id="one" class="gerybtn" value="1" onclick="inputAnswer('1')"/>
+            </td>
+            <td class="btn">
+                <input type="button" id="two" class="gerybtn" value="2" onclick="inputAnswer('2')"/>
+            </td>
+            <td class="btn">
+                <input type="button" id="three" class="gerybtn" value="3" onclick="inputAnswer('3')"/>
+            </td>
+            <td class="btn">
+                <input type="button" id="mul" class="orabtn" value="*" onclick="inputAnswer('*')"/>
+            </td>
+        </tr>
+        <tr>
+            <td class="btn">
+                <input type="button" id="zero" class="gerybtn" value="0" onclick="inputAnswer('0')"/>
+            </td>
+            <td class="btn">
+                <input type="button" id="dot" class="gerybtn" value="." onclick="inputAnswer('.')"/>
+            </td>
+            <td class="btn">
+                <input type="button" id="clear" class="redbtn" value="C"/>
+            </td>
+            <td class="btn">
+                <input type="button" id="div" class="orabtn" value="/" onclick="inputAnswer('/')">
+            </td>
+            
+        </tr>
+        <tr>
+            <td class="last">
+            <button id="equal" class="greenbtn">=</button> 
+        </td>
+        </tr>
+
+    </table>
+</div>
+</body>
+</html>
